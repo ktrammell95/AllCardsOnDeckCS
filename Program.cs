@@ -13,7 +13,7 @@ namespace AllCardsOnDeckCS
 
             // numberOfCards = length of our deck
             var numberOfCards = cards.Count;
-            Console.WriteLine($"{numberOfCards}");
+            // Console.WriteLine($"{numberOfCards}");
 
             // for rightIndex from numberOfCards - 1 down to 1 do:
             //   leftIndex = random integer that is greater than or equal to 0 and LESS than rightIndex. See the section "How do we get a random integer")
@@ -34,9 +34,17 @@ namespace AllCardsOnDeckCS
                 cards[leftIndex] = rightCard;
             }
 
-            foreach (var card in cards)
+            // foreach (var card in cards)
+            // {
+            //     Console.WriteLine($"{card}");
+
+            // }
+
+            for (var cardsIndex = 0; cardsIndex <= 0; cardsIndex++)
             {
-                Console.WriteLine($"{card}");
+                var cardDealtOne = cards[0];
+                var cardDealtTwo = cards[1];
+                Console.WriteLine($"Cards dealt: {cardDealtOne} and {cardDealtTwo}");
 
             }
         }
