@@ -18,7 +18,7 @@ namespace AllCardsOnDeckCS
             // for rightIndex from numberOfCards - 1 down to 1 do:
             //   leftIndex = random integer that is greater than or equal to 0 and LESS than rightIndex. See the section "How do we get a random integer")
 
-            for (var rightIndex = numberOfCards - 1; rightIndex >= 0; rightIndex--)
+            for (var rightIndex = numberOfCards - 1; rightIndex >= 1; rightIndex--)
             {
                 var leftIndex = new Random().Next(0, rightIndex);
 
