@@ -40,13 +40,16 @@ namespace AllCardsOnDeckCS
 
             // }
 
-            for (var cardsIndex = 0; cardsIndex <= 0; cardsIndex++)
-            {
-                var cardDealtOne = cards[0];
-                var cardDealtTwo = cards[1];
-                Console.WriteLine($"Cards dealt: {cardDealtOne} and {cardDealtTwo}");
+            // for (var cardsIndex = 0; cardsIndex <= 0; cardsIndex++)
+            // {
+            //     var cardDealtOne = cards[0];
+            //     var cardDealtTwo = cards[1];
+            //     Console.WriteLine($"Cards dealt: {cardDealtOne} and {cardDealtTwo}");
+            // }
 
-            }
+            var cardDealtOne = cards[0];
+            var cardDealtTwo = cards[1];
+            Console.WriteLine($"Cards dealt: {cardDealtOne} and {cardDealtTwo}");
         }
     }
 }
